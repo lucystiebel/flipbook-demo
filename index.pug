@@ -1,0 +1,8 @@
+pages- var pages = ['https://i.imgur.com/d6oXl7H.jpeg', 'https://i.imgur.com/Sx7HEnw.jpeg', 'https://i.imgur.com/AVZFixr.jpeg', 'https://i.imgur.com/2wdcvsV.jpeg', 'https://i.imgur.com/1Td8p9z.jpeg', 'https://i.imgur.com/mSqDyv4.jpeg'];
+
+.book-wrapper
+  .book-container
+    #book.book
+      each page in pages
+        .page
+          img(src=page, alt='')
